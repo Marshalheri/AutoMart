@@ -1,0 +1,157 @@
+body{
+font: 15px/1.5 Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+text-align: center;
+min-height: 100vh;
+background: whitesmoke;
+margin: 0;
+padding: 0;
+}
+
+/** General css**/
+ a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+hr {
+  border: 1px solid #009999;
+  margin:5px 0;
+}
+
+.hFlex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.mainContainer{
+	width:90%;
+	margin:auto;
+}
+
+.verticalHr{
+	border-left: 2px solid #009999;
+	margin: 0 10px;
+}
+
+.productCard{
+	justify-content: flex-start;
+	padding: 10px 0;
+	margin-bottom:10px;
+}
+
+.productCard .card{
+	width:30%;
+	text-align: center;
+	background:white;
+	border: 1px #009999 solid;
+	margin: 10px;
+}
+
+/**General css ends here....**/
+
+header{
+	justify-content: flex-start;
+	color: #ffffff;
+	background:#009999;
+	padding: 0 10px;
+	/**border-bottom: 3px #a3a375 solid;**/
+	min-height:70px;
+}
+
+header #siteLogo {
+	width:50%;
+	text-align:left;
+}
+
+header #authorization{
+	width:50%;
+	text-align:right;
+}
+
+header nav{
+	width:30%;
+	margin:auto;
+}
+
+header ul{
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	display: inline;
+}
+
+header .highlight, header .active a{
+	color: #cc2900;
+	font-weight: bold;
+}
+
+#showcase{
+	min-height:300px;
+	background-image: url("../img/carBackground3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.imageBtn button{
+	width: 40%;
+	border:none;
+	height:30px;
+	border-radius: 5px;
+	color:#009999;
+	font-weight:bold;
+	margin:20% 0 3px 0;
+	text-transform:uppercase;
+	cursor: pointer;
+}
+
+.imageBtn button:hover{
+	color:#ffffff;
+	background:#cc2900;
+}
+
+.card img{
+	width:100%;
+}
+
+.productCard hr{
+	margin:0;
+}
+
+.productCard a{
+	color:#009999;
+}
+
+footer{
+	color: #ffffff;
+	background:#009999;
+	height:7vh;
+	justify-content: center;
+	align-items: center;
+}
+
+/**Media query for small screen devices...**/
+@media(max-width: 784px){
+	header, header ul, .productCard {
+		flex-direction:column;
+		justify-content: center;
+	}
+	header #siteLogo, header #authorization, header nav{
+		width:100%;
+		text-align: center;
+		margin:0;
+	}
+	header li{
+		padding: 0 10px;
+	}
+		
+	.productCard .card{
+		width:100%;
+		margin: 10px;
+	}
+}
