@@ -105,6 +105,9 @@ input:focus, textarea:focus{
   margin: 0;
 }
 
+.agree a{
+	color:#009999;
+}
 
 /**General css ends here....**/
 
@@ -186,11 +189,13 @@ footer{
 		flex-direction:column;
 		justify-content: center;
 	}
+
 	header #siteLogo, header #authorization, header nav{
 		width:100%;
 		text-align: center;
 		margin:0;
 	}
+
 	header li{
 		margin-top: 3px;
 		padding: 0 5px;
