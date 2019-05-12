@@ -37,6 +37,16 @@ textarea{
 	width:60%;
 }
 
+.radioLabel{
+	width:10%;
+	margin:0;
+}
+
+.vFlex h3{
+	margin-bottom:0;
+	text-align:left;
+} 
+
 
 /**Media query for small screen devices...**/
 @media(max-width: 768px){
