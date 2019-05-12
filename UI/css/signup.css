@@ -23,6 +23,22 @@ label{
 	text-align: left;
 }
 
+.formSpacing{
+	margin: 5px 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.agree , .agree a{
+	font-size:12px;
+	text-align:right;
+	text-decoration:none;
+}
+
+.agree a{
+	color:#009999;
+}
+
 /**Media query for small screen devices...**/
 @media(max-width: 768px){
 	.signupCon{
