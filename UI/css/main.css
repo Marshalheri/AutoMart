@@ -25,6 +25,11 @@ button:hover{
 	background:#cc2900;
 }
 
+input:focus, textarea:focus{
+	outline: none;
+	border-color: #009999;
+}
+
 .hFlex{
 	display: flex;
 	flex-direction: row;
@@ -83,6 +88,21 @@ button:hover{
 	font-size:12px;
 	text-align:right;
 	text-decoration:none;
+}
+
+.agreeLeft{
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+}
+
+.agree a, .agreeLeft a{
+	color:#009999;
+}
+
+.noMarginHr {
+  border: 1px solid #009999;
+  margin: 0;
 }
 
 .agree a{
@@ -169,7 +189,7 @@ footer{
 		flex-direction:column;
 		justify-content: center;
 	}
-  
+
 	header #siteLogo, header #authorization, header nav{
 		width:100%;
 		text-align: center;
