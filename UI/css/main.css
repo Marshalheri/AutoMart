@@ -136,7 +136,7 @@ footer{
 }
 
 /**Media query for small screen devices...**/
-@media(max-width: 784px){
+@media(max-width: 768px){
 	header, header ul, .productCard {
 		flex-direction:column;
 		justify-content: center;
@@ -147,7 +147,8 @@ footer{
 		margin:0;
 	}
 	header li{
-		padding: 0 10px;
+		margin-top: 3px;
+		padding: 0 5px;
 	}
 		
 	.productCard .card{
