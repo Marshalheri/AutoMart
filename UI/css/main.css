@@ -25,6 +25,10 @@ button:hover{
 	background:#cc2900;
 }
 
+input:focus{
+	outline: 1px #009999 solid;
+}
+
 .hFlex{
 	display: flex;
 	flex-direction: row;
