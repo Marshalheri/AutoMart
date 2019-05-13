@@ -20,7 +20,7 @@ label{
 	font-weight: bold;
 }
 
-input[type="text"]{
+input[type="text"], input[type="number"]{
 	width:50%;
 	height:40px;
 	font-size: 17px
@@ -57,7 +57,7 @@ textarea{
 		width:90%;
 	}
 	
-	input[type="text"], input[type="file"], textarea{
+	input[type="text"], input[type="file"], input[type="number"], textarea{
 		width: 100%;
 	}
 	
