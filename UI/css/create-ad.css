@@ -33,6 +33,11 @@ input[type="file"]{
 	padding: 3px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/develop
 textarea{
 	width:60%;
 }
@@ -55,7 +60,11 @@ textarea{
 		width:90%;
 	}
 	
+<<<<<<< HEAD
 	input[type="text"], input[type="file"],input[type="number"], textarea{
+=======
+	input[type="text"], input[type="file"], input[type="number"], textarea{
+>>>>>>> origin/develop
 		width: 100%;
 	}
 	
